@@ -1,11 +1,11 @@
 package main
 
 import (
-	"context"
 	"crypto/tls"
 	"errors"
 	"flag"
 	"fmt"
+	"golang.org/x/net/context"
 	"io"
 	"net/http"
 	"net/url"
